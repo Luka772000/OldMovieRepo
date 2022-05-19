@@ -1,0 +1,5 @@
+2021-12-02 12:55:07.2205 ERROR Nesto je poslo po zlu u HttpPost(Film) metodi: An error occurred while updating the entries. See the inner exception for details.
+2021-12-02 17:42:44.9093 ERROR Nesto je poslo po zlu u HttpPost(Film) metodi: An error occurred while updating the entries. See the inner exception for details.
+2021-12-02 17:42:49.8842 ERROR Nesto je poslo po zlu u HttpGet(Film) metodi: Invalid object name 'FilmDetails'.
+2021-12-02 17:43:03.7845 ERROR Nesto je poslo po zlu u HttpPost(Glumac) metodi: An error occurred while updating the entries. See the inner exception for details.
+2021-12-02 17:44:30.8307 ERROR Nesto je poslo po zlu u HttpPost(Film) metodi: An error occurred while updating the entries. See the inner exception for details.

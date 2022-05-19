@@ -1,0 +1,126 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+@import '~mdb-ui-kit/css/mdb.min.css';
+.form-group label{
+    color:grey;
+}
+.form-group input{
+    font-weight: 500;
+}
+.form-group input ::placeholder{
+    color: #c0bdbd;
+    font-weight: 300;
+}
+thead th{
+    font-weight: 400;
+}
+input.invalid{
+    border-color: red;
+}
+.app{
+    background-color: whitesmoke;
+    min-height: 100%;
+  min-width: 1024px;	
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;   
+}
+.titl{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    font-size:100px;
+    color:rgb(255,255,255);opacity:0.5;
+    border-style: double;
+    border-color: grey;
+    -webkit-text-stroke: 0.3vw black
+    
+    
+
+}
+.imena{
+    font-weight: 500;
+    font-size:20px;
+    color: grey
+    
+}
+ngb-rating{
+    color:darkslategray;
+    font-size: 40px;
+    position:absolute;
+    top:90%;
+    left:46%
+    
+}
+
+.button{
+    color:white;
+    background-color: rgb(80, 80, 80)
+;
+}
+.specbutton{
+    text-align: center;
+}
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.stilPopup{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    
+    
+   
+}
+.form{
+    font-size: larger;
+}
+.button1{
+    background-color: red;
+    padding: 16px 32px;
+    
+}
+.table2{
+    font-size: Medium;
+}
+.tablered{
+    font-size: 18px;
+    font-weight: 400
+}
+.tabletitle{
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 20%;
+    
+}
+.slika{
+    text-align: center;
+    
+}
+.titldiv{
+    font-size: 150%;
+    
+}
+.subtitldiv{
+    font-size: 130%;
+}
+.contentdiv{
+    font-size: 110%
+}
+.margina{
+    margin-top: 5%;
+}
+.fotka{
+    float:right
+}
+.tablica{overflow-y: scroll;
+height: 10%;}
+.dash{
+    margin-left: 10%;
+    margin-right: 10%
+}
+.dashkart{
+    background-image: url("https://imgur.com/a/1lh8Wvr.jpg");
+}

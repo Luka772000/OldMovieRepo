@@ -1,0 +1,6 @@
+2021-12-03 14:31:31.2046 ERROR Nesto je poslo po zlu u HttpGet(Film) metodi: Invalid object name 'Films'.
+2021-12-03 14:31:48.1959 ERROR Nesto je poslo po zlu u HttpPost(Film) metodi: An error occurred while updating the entries. See the inner exception for details.
+2021-12-03 14:34:34.8619 ERROR Nesto je poslo po zlu u HttpGet(Film) metodi: Invalid object name 'Films'.
+2021-12-03 14:34:40.7580 ERROR Nesto je poslo po zlu u HttpGet(Glumac) metodi: Invalid object name 'Actors'.
+2021-12-03 14:34:46.0663 ERROR Nesto je poslo po zlu u HttpGet(ProdKuca) metodi: Invalid object name 'ProductionHouses'.
+2021-12-03 14:36:20.1898 ERROR Nesto je poslo po zlu u HttpGet(Glumac) metodi: Invalid object name 'Actors'.

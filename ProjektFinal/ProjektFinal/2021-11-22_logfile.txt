@@ -1,0 +1,3 @@
+
+2021-11-22 15:33:01.1505 ERROR Film sa unesenim ID-m nije pronadjen 2
+2021-11-22 16:05:17.0736 ERROR ProdKuca sa unesenim ID-m nije pronadjen 1

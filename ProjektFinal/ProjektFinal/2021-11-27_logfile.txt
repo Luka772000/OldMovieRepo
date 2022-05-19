@@ -1,0 +1,4 @@
+2021-11-27 13:27:59.1829 ERROR Nesto je poslo po zlu u HttpPost(Film) metodi: An error occurred while updating the entries. See the inner exception for details.
+2021-11-27 13:28:13.3295 ERROR Nesto je poslo po zlu u HttpPost(Film) metodi: An error occurred while updating the entries. See the inner exception for details.
+2021-11-27 13:31:12.3520 ERROR Nesto je poslo po zlu u HttpPost(Film) metodi: An error occurred while updating the entries. See the inner exception for details.
+2021-11-27 13:50:58.0411 ERROR Nesto je poslo po zlu u HttpPost(Film) metodi: An error occurred while updating the entries. See the inner exception for details.

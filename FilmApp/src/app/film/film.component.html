@@ -1,0 +1,84 @@
+
+<app-navigacija></app-navigacija>
+<div  class="stilPopup" [hidden]="isShowDiv">
+  
+
+  <mat-card class="margina">
+    <mat-card-title-group>
+      <mat-card-title class="titldiv"><button mat-button class="close" aria-label="Close" (click)=(close())>x</button>{{movieDetails['Title']}} </mat-card-title>
+      
+      <mat-card-subtitle class="subtitldiv">{{movieDetails['Genre']}}</mat-card-subtitle>
+      <img mat-card-xxl-image src="{{movieDetails['Poster']}}" >
+    </mat-card-title-group>
+    <mat-card-content class="contentdiv">
+    <p> <b>Glumci:</b> {{movieDetails['Actors']}}</p>
+    <p> <b>Nagrade:</b> {{movieDetails['Awards']}}</p>
+    <p> <b>Boxoffice:</b> {{movieDetails['BoxOffice']}}</p>
+    <p> <b>Zemlja:</b> {{movieDetails['Country']}}</p>
+    <p> <b>Direktor:</b> {{movieDetails['Director']}}</p>
+    <p> <b>Radnja filma:</b> {{movieDetails['Plot']}}</p>
+    
+    </mat-card-content>
+  </mat-card>
+
+</div>
+
+
+<div class="sveulijevo">
+<div class="py-3" [hidden]="isShowElse">
+    <h1 class="titl  text-center">FILMOVI</h1>
+
+<div class="row">
+    <div class="col-md-6">
+        <app-film-form ></app-film-form>
+
+    </div>
+    <div class="col-md-6" >
+
+
+      
+      <table class="table table-striped" >
+        <thead>
+        <tr class="tabletitle">
+          
+          <th scope="col">IME</th>
+          <th scope="col">GODINA PRODUKCIJE</th>
+          <th scope="col">UKUPNA ZARADA</th>
+        </tr>
+        </thead>
+        <tbody >
+        <tr *ngFor="let pd of service.list" class="tablered">
+          <td  (click)="getDetails(pd)">{{ pd.ime }}</td>
+          <td  (click)="getDetails(pd)">{{ pd.godinaProdukcije | number }}</td>
+          <td  (click)="getDetails(pd)">{{ pd.ukupnazarada | number }}</td>
+          <td  ><i class="far fa-trash-alt fa-lg text-danger" (click)="open(content)"></i><ng-template #content let-c="close" let-d="dismiss">
+      
+            <div class="modal-header">
+              <h4 class="modal-title" id="modal-basic-title">Brisanje filma</h4>
+              <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Jeste li sigurni da želite izbrisati ovu stavku?</p>
+            </div>
+            <div class="specbutton">
+              <button type="submit" class="btn btn-outline-dark"  (click)="c('Save click')"font-co (click)="onDelete(this.pd.filmId)" >DA</button>
+            </div>
+          </ng-template></td>
+        </tr>
+        
+        </tbody>
+      </table>
+
+      
+      
+      
+        
+        
+        
+    </div>
+
+</div>
+</div>
+</div>

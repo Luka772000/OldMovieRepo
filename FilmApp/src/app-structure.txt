@@ -1,0 +1,14 @@
+● src
++---● app
+|   +--● film
+|   |  |--film.component.ts|.html
+|   |  +--● film-form
+|   |  |  |--film.component.ts|.html
+|   |  
+|   +--● shared
+|   |  |--film.service.ts
+|   |  |--filmmodel.ts
+|   |
+|   |--app.module.ts
+|
+|--index.html (cdn path for bootstrap & fa icons)

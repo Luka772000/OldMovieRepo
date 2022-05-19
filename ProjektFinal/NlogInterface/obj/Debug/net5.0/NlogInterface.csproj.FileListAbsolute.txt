@@ -1,0 +1,12 @@
+C:\Users\Luka\Desktop\New folder\ProjektFinal\NlogInterface\bin\Debug\net5.0\NlogInterface.deps.json
+C:\Users\Luka\Desktop\New folder\ProjektFinal\NlogInterface\bin\Debug\net5.0\NlogInterface.dll
+C:\Users\Luka\Desktop\New folder\ProjektFinal\NlogInterface\bin\Debug\net5.0\ref\NlogInterface.dll
+C:\Users\Luka\Desktop\New folder\ProjektFinal\NlogInterface\bin\Debug\net5.0\NlogInterface.pdb
+C:\Users\Luka\Desktop\New folder\ProjektFinal\NlogInterface\obj\Debug\net5.0\NlogInterface.csproj.AssemblyReference.cache
+C:\Users\Luka\Desktop\New folder\ProjektFinal\NlogInterface\obj\Debug\net5.0\NlogInterface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luka\Desktop\New folder\ProjektFinal\NlogInterface\obj\Debug\net5.0\NlogInterface.AssemblyInfoInputs.cache
+C:\Users\Luka\Desktop\New folder\ProjektFinal\NlogInterface\obj\Debug\net5.0\NlogInterface.AssemblyInfo.cs
+C:\Users\Luka\Desktop\New folder\ProjektFinal\NlogInterface\obj\Debug\net5.0\NlogInterface.csproj.CoreCompileInputs.cache
+C:\Users\Luka\Desktop\New folder\ProjektFinal\NlogInterface\obj\Debug\net5.0\NlogInterface.dll
+C:\Users\Luka\Desktop\New folder\ProjektFinal\NlogInterface\obj\Debug\net5.0\ref\NlogInterface.dll
+C:\Users\Luka\Desktop\New folder\ProjektFinal\NlogInterface\obj\Debug\net5.0\NlogInterface.pdb

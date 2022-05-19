@@ -1,0 +1,53 @@
+<form novalidate autocomplete="off" #form="ngForm" (submit)="onSubmit(form)" >
+    
+    
+
+
+<div>
+    <mat-form-field  class="col-md-10 form"  display="flex" appearance="fill">
+    <mat-label>Ime Filma</mat-label>
+    <input matInput placeholder="Unesi ime"  name="ime" #ime="ngModel"[(ngModel)]="service.formData.ime" required [class.invalid]="ime.invalid && ime.touched">
+    </mat-form-field>
+</div>
+
+
+<div >
+  <mat-form-field class="col-md-10 form" appearance="fill">
+  <mat-label>Godina produkcije</mat-label>
+  <input matInput placeholder="Unesi godinu" name="godinaProdukcije" #godinaProdukcije="ngModel"[(ngModel)]="service.formData.godinaProdukcije"  type="number" min="1888" max="2021"  required [class.invalid]="godinaProdukcije.invalid && godinaProdukcije.touched" >
+  </mat-form-field>
+</div>
+
+  
+<div >
+  <mat-form-field  class="col-md-10 form"  appearance="fill">
+  <mat-label>Ukupna zarada</mat-label>
+  <input matInput placeholder="Unesi zaradu" name="ukupnaZarada" #ukupnaZarada="ngModel"[(ngModel)]="service.formData.ukupnazarada"   type="number" step="100000" required [class.invalid]="ukupnaZarada.invalid && ukupnaZarada.touched">
+  </mat-form-field>
+</div>
+  
+<div class="col-md-10" >
+  <button class="btn btn-lg btn-block button form"  type="button"   (click)="open(content)"[disabled]="form.invalid"  >UNESI</button>
+</div>
+
+
+
+
+
+    <div>
+        <ng-template #content let-c="close" let-d="dismiss">
+        <div class="modal-header">
+          <h4 class="modal-title" id="modal-basic-title">Dodavanje novog filma</h4>
+          <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Jeste li sigurni?</p>
+        </div>
+        <div class="specbutton">
+          <button type="submit" class="btn btn-outline-dark"  (click)="c('Save click')"font-co (click)="onSubmit(form)" >DA</button>
+        </div>
+      </ng-template></div>
+    
+</form>

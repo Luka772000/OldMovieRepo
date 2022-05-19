@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProjektFinal</name>
+    </assembly>
+    <members>
+        <member name="M:ProjektFinal.Controllers.ActorsController.GetActors">
+            <summary>
+            Vraća listu glumaca
+            </summary>
+            <returns>Lista glumaca</returns>
+            <remarks>
+            Sample request
+            GET/api/Glumci
+            </remarks>
+        </member>
+        <member name="M:ProjektFinal.Controllers.ActorsController.GetActorById(System.Int32)">
+            <summary>
+            Vraća glumca s  odredenim ID-om
+            </summary>
+            <returns>Glumac</returns>
+            <remarks>
+            Sample request
+            GET/api/Glumci/2
+            </remarks>
+        </member>
+        <member name="M:ProjektFinal.Controllers.ActorsController.PutActor(System.Int32,ProjektFinal.DTOs.ActorDto)">
+            <summary>
+            Updejta Glumca
+            </summary>
+            <returns>Glumac</returns>
+            <remarks>
+            Sample request
+            Put/api/Glumac
+            </remarks>
+        </member>
+        <member name="M:ProjektFinal.Controllers.ActorsController.PostActor(ProjektFinal.DTOs.ActorDto)">
+            <summary>
+            Posta glumca
+            </summary>
+            <returns>Glumac</returns>
+            <remarks>
+            Sample request
+            POST/api/Glumci
+            </remarks>
+        </member>
+        <member name="M:ProjektFinal.Controllers.ActorsController.DeleteActor(System.Int32)">
+            <summary>
+            Brise glumca s  odredenim ID-om
+            </summary>
+            <returns>Glumac</returns>
+            <remarks>
+            Sample request
+            DELETE/api/Glumci/2
+            </remarks>
+        </member>
+        <member name="M:ProjektFinal.Controllers.FilmsController.GetFilmDetails">
+            <summary>
+            Vraća listu filmova
+            </summary>
+            <returns>Lista filmova</returns>
+            <remarks>
+            Sample request
+            GET/api/FilmDetails
+            </remarks>
+        </member>
+        <member name="M:ProjektFinal.Controllers.FilmsController.GetFilmById(System.Int32)">
+            <summary>
+            Vraća films odredenim ID-om
+            </summary>
+            <returns>Oredeni film</returns>
+            <remarks>
+            Sample request
+            GET/api/FilmDetails/2
+            </remarks>
+        </member>
+        <member name="M:ProjektFinal.Controllers.FilmsController.PutFilmDetail(System.Int32,ProjektFinal.DTOs.FilmDto)">
+            <summary>
+            Updejta određeni film u bazu podataka
+            </summary>
+            <returns>Updejtan film</returns>
+            <remarks>
+            Sample request
+            PUT/api/FilmDetail
+            </remarks>
+        </member>
+        <member name="M:ProjektFinal.Controllers.FilmsController.PostFilmDetail(ProjektFinal.DTOs.FilmDto)">
+            <summary>
+            Uploada određeni film u bazu podataka
+            </summary>
+            <returns>Uploadan film</returns>
+            <remarks>
+            Sample request
+            POST/api/FilmDetail
+            </remarks>
+        </member>
+        <member name="M:ProjektFinal.Controllers.FilmsController.DeleteFilmDetail(System.Int32)">
+            <summary>
+            Izbrisati film s određenim ID-om
+            </summary>
+            <returns>Izbrisan film</returns>
+            <remarks>
+            Sample request
+            DELETE/api/FilmDetails/2
+            </remarks>
+        </member>
+        <member name="M:ProjektFinal.Controllers.ProductionHousesController.GetProdKuca">
+            <summary>
+            Vraća listu produkcijskih kuca
+            </summary>
+            <returns>Lista produkcijskih kuca</returns>
+            <remarks>
+            Sample request
+            GET/api/ProdKuca
+            </remarks>
+        </member>
+        <member name="M:ProjektFinal.Controllers.ProductionHousesController.GetProdkuca(System.Int32)">
+            <summary>
+            Vraća produkcijsku kucu po id-u
+            </summary>
+            <returns>Produkcijska kuca</returns>
+            <remarks>
+            Sample request
+            GET/api/ProdKuca/2
+            </remarks>
+        </member>
+        <member name="M:ProjektFinal.Controllers.ProductionHousesController.PutProdKuca(System.Int32,ProjektFinal.DTOs.ProductionHouseDto)">
+            <summary>
+            Updejta produkcijsku kucu
+            </summary>
+            <returns>Produkcijska kuca</returns>
+            <remarks>
+            Sample request
+            PUT/api/ProdKuca
+            </remarks>
+        </member>
+        <member name="M:ProjektFinal.Controllers.ProductionHousesController.PostProdKuca(ProjektFinal.DTOs.ProductionHouseDto)">
+            <summary>
+            Posta produkcijsku kucu
+            </summary>
+            <returns>Produkcijska kuca</returns>
+            <remarks>
+            Sample request
+            POST/api/ProdKuca
+            </remarks>
+        </member>
+        <member name="M:ProjektFinal.Controllers.ProductionHousesController.DeleteProdKuca(System.Int32)">
+            <summary>
+            Brise prodkucu po ID-u
+            </summary>
+            <returns>Produkcijska kuca izbrisana</returns>
+            <remarks>
+            Sample request
+            DELETE/api/ProdKuca
+            </remarks>
+        </member>
+    </members>
+</doc>
